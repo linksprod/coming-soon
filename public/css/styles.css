@@ -67,6 +67,7 @@ body {
     width: 100%;
     display: justify-content;
     gap: 20px;
+    
 }
 .email-box {
     padding: 10px;
@@ -121,6 +122,12 @@ body {
 }
 /* Responsive Design */
 @media (max-width: 768px) {
+    body{
+        padding-left: 5%;
+    }
+    .logo{
+        left: 5%;
+    }
     .content {
         max-width: 100%;
         margin-left: 5%;
@@ -135,7 +142,7 @@ body {
         font-size: 15px; /* Slightly reduce font size for smaller screens */
     }
     .subscribe{
-        margin-right: 95%;
+        left: 5%;
     }
     .location{
         font-size: 11px;
