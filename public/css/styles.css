@@ -12,7 +12,7 @@ body {
 
 /* Background with Gradient */
 body {
-    background-image: linear-gradient(to right, rgba(42, 162, 165, 0.8), rgba(255, 253, 253, 0)), url('../images/background_image1.png');
+    background-image: linear-gradient(to right, rgba(42, 162, 165, 0.8), rgba(255, 253, 253, 0)), url('/images/background_image1.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
