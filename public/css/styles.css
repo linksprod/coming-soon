@@ -65,12 +65,14 @@ body {
 /* Email Subscription Styling */
 .subscribe {
     width: 100%;
-    display: flex;
-    gap: 10px;
+    display: justify-content;
+    gap: 20px;
 }
 .email-box {
     padding: 10px;
     font-size: 13px;
+    margin-top: 10px;
+    width: 55%;
     border: none;
     border-radius: 5px;
     flex: 1;
@@ -133,18 +135,4 @@ body {
     .location{
         font-size: 11px;
     }
-}
-
-@media (max-width: 480px) {
-    .content h1 {
-        font-size: clamp(30px, 4vw, 36px); /* Further scaling for phones */
-    }
-
-    .content p {
-        font-size: 12px;
-    }
-    .location{
-        font-size: 9px;
-    }
-    
 }
