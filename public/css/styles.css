@@ -122,7 +122,9 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .content {
-        max-width: 100%; /* Ensure it takes full width on smaller screens */
+        max-width: 100%;
+        margin-left: 5%;
+        margin-right: 95%; /* Ensure it takes full width on smaller screens */
     }
 
     .content h1 {
@@ -132,7 +134,11 @@ body {
     .content p {
         font-size: 15px; /* Slightly reduce font size for smaller screens */
     }
+    .subscribe{
+        margin-right: 95%;
+    }
     .location{
         font-size: 11px;
     }
 }
+
